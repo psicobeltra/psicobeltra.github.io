@@ -24,6 +24,10 @@ ul {
   list-style: disc;
 }
 
+ul li {
+  margin-bottom: .5rem;
+}
+
 h1 {
   font-size: 2rem;
   margin-bottom: 0.25rem;
@@ -37,11 +41,12 @@ h2 {
 }
 
 a {
-  color: #2563eb;
+  color: #f43f5e;
   text-decoration: none;
 }
 
 a:hover {
+  color: #fb7185;
   text-decoration: underline;
 }
 
@@ -79,8 +84,8 @@ a:hover {
 .btn {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #22c55e;
-  color: white;
+  background-color: #84cc16;
+  color: #fff;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 600;
@@ -89,5 +94,6 @@ a:hover {
 }
 
 .btn:hover {
-  background-color: #16a34a;
+  background-color: #a3e635;
+  color: #fff;
 }
