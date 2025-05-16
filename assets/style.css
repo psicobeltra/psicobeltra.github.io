@@ -58,6 +58,14 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+.avatar {
+  border-radius: 50%;
+  display: inline-block;
+  height: 200px;
+  margin-bottom: .5rem;
+  width: 200px;
+}
+
 .values {
   margin-top: 1rem;
   font-style: italic;
